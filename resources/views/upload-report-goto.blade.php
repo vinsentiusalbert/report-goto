@@ -24,14 +24,6 @@
             <a href="{{ asset('downloads/goto-report-sample.csv') }}" download>Download CSV contoh</a>
         </div>
 
-        <div class="upload-helper upload-helper--stack">
-            <span>Event type yang didukung untuk file upload:</span>
-            <ul class="upload-type-list">
-                @foreach($allowedEventTypes as $eventType)
-                    <li>{{ $eventType }}</li>
-                @endforeach
-            </ul>
-        </div>
 
         @if (session('status'))
             <div class="flash-message flash-message--success">{{ session('status') }}</div>
