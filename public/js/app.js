@@ -17,3 +17,4 @@ const toggleSidebar = (open) => {
 document.querySelector('[data-sidebar-open]')?.addEventListener('click', () => toggleSidebar(true));
 document.querySelector('[data-sidebar-close]')?.addEventListener('click', () => toggleSidebar(false));
 overlay?.addEventListener('click', () => toggleSidebar(false));
+

@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Masuk — Report GoTo</title>
     <meta name="description" content="Masuk ke dashboard Report GoTo">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body class="login-page">
     <main class="login-shell">
@@ -65,15 +66,11 @@
                     </button>
                 </form>
 
-                <div class="demo-account">
-                    <span>Akun demo</span>
-                    <code>admin@reportgoto.id</code>
-                    <span class="dot">•</span>
-                    <code>password</code>
-                </div>
+                
                 <p class="login-footer">© {{ date('Y') }} Report GoTo. Internal business dashboard.</p>
             </div>
         </section>
     </main>
 </body>
 </html>
+
