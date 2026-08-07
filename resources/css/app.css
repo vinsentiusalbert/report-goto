@@ -78,6 +78,9 @@
 .event-summary-subitem__label{display:block;font-size:12px;font-weight:700;color:#253630;line-height:1.45;word-break:normal;overflow-wrap:normal;text-align:center}
 .event-summary-subitem small{display:block;font-size:10px;color:#8a9791;line-height:1.4}
 .event-summary-subitem strong{font-size:28px;line-height:1;color:#16221d;letter-spacing:-.8px}
+.daily-report-table th,.daily-report-table td{text-align:center}
+.daily-report-table th:first-child,.daily-report-table td:first-child{text-align:left;position:sticky;left:0;background:#fff;z-index:1}
+.daily-report-table thead th:first-child{background:#fafbfa;z-index:2}
 .trend-green{background:#eaf8f1;color:#008c4b}.trend-blue{background:#eaf4ff;color:#2f7acf}.trend-purple{background:#f2edff;color:#7a4fe0}.trend-orange{background:#fff2df;color:#dd8a16}.trend-rose{background:#fff0f4;color:#cc4266}.trend-teal{background:#e9fbf8;color:#0e8579}
 @media(max-width:1050px){.filter-form{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}}
 @media(max-width:760px){.event-summary-sublist{grid-template-columns:1fr}}

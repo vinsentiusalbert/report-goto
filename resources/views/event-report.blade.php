@@ -119,7 +119,7 @@
         <div class="panel-head">
             <div>
                 <h2>Daftar Event</h2>
-                <p>Menampilkan data terbaru dari tabel goto_reporting_events.</p>
+                <p>Menampilkan data terbaru dari view vw_goto_reporting_events.</p>
             </div>
         </div>
         <div class="table-wrap">

@@ -22,7 +22,7 @@ class EventReportController extends Controller
         ];
 
         $data = $this->runReportingQuery(function () use ($reporting, $filters): array {
-            $remoteBaseQuery = $reporting->table('goto_reporting_events');
+            $remoteBaseQuery = $reporting->table('vw_goto_reporting_events');
             $remoteFilteredQuery = $this->applyFilters(clone $remoteBaseQuery, $filters);
 
             $remoteEventTypes = (clone $remoteBaseQuery)

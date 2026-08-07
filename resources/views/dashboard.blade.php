@@ -74,7 +74,7 @@
             <div class="panel-head"><div><h2>Sumber Data</h2><p>Overview sekarang sudah dipisah per report</p></div></div>
             <div class="service-legend compact">
                 <div><i class="s1"></i><span>GOTO Report<small>Data hasil upload CSV lokal</small></span></div>
-                <div><i class="s2"></i><span>MyAds Report<small>Data dari tabel goto_reporting_events</small></span></div>
+                <div><i class="s2"></i><span>MyAds Report<small>Data dari tabel DB</small></span></div>
                 <div><i class="s3"></i><span>Merchant unik / hari<small>Satu merchant di hari yang sama dihitung sekali</small></span></div>
                 <div><i class="s4"></i><span>Event terbaru gabungan<small>Daftar event diurutkan descending berdasarkan waktu</small></span></div>
             </div>

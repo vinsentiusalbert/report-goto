@@ -22,6 +22,10 @@
                 <svg viewBox="0 0 24 24"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h10"/><path d="M18 17l2 2 4-4"/></svg>
                 Event Report
             </a>
+            <a href="{{ route('daily-event-report') }}" class="{{ request()->routeIs('daily-event-report') ? 'active' : '' }}">
+                <svg viewBox="0 0 24 24"><path d="M4 19h16"/><path d="M6 16V8"/><path d="M12 16V5"/><path d="M18 16v-6"/></svg>
+                Daily Report
+            </a>
             <a href="{{ route('upload-report-goto.create') }}" class="{{ request()->routeIs('upload-report-goto.*') ? 'active' : '' }}">
                 <svg viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg>
                 Upload Report Goto

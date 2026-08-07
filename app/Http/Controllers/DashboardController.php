@@ -17,7 +17,7 @@ class DashboardController extends Controller
         $reporting->reconnect();
 
         $data = $this->runReportingQuery(function () use ($reporting): array {
-            $eventsQuery = $reporting->table('goto_reporting_events');
+            $eventsQuery = $reporting->table('vw_goto_reporting_events');
 
             $remoteEvents = (clone $eventsQuery)
                 ->select(['merchant_id', 'event_type', 'created_at'])
